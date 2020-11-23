@@ -1,7 +1,7 @@
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --accent-color: 33, 150, 243, 1;
+  --accent-color: rgb(33, 150, 243, 1);
 }
 body {
   font-family: var(--main-font);
@@ -35,6 +35,10 @@ body {
   color: #000000;
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 .nav-list-link,
 .address {
   font-weight: 500;
@@ -47,8 +51,10 @@ body {
 .nav-list-link:hover,
 .nav-list-link:focus,
 .header-mail:hover,
-.header-mail:focus {
-  color: var--(--accent-color);
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
 }
 
 .address {
@@ -77,7 +83,7 @@ body {
 .modal-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   display: flex;
   align-items: center;
   text-align: center;
@@ -141,10 +147,19 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
-.contact-location {
+/* .contact-location {
   color: #ffffff;
-}
+}*/
 
 /* .contact-mail,
 .contact-tel {
-  color: rgba(255, 255, 255, 0.6)};*/
+color: rgba(255, 255, 255, 0.6)};*/
+
+.contact-location:hover,
+.contact-location:focus,
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-tel:hover,
+.contact-tel:focus {
+  color: var(--accent-color);
+}
