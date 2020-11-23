@@ -1,0 +1,150 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: 33, 150, 243, 1;
+}
+body {
+  font-family: var(--main-font);
+}
+
+/*======COMPONENTS======*/
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*======END COMPONENTS======*/
+
+/*======HEADER======*/
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.first-logo-item {
+  color: #2196f3;
+}
+.second-logo-item {
+  color: #000000;
+}
+
+.nav-list-link,
+.address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143x;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.header-mail:hover,
+.header-mail:focus {
+  color: var--(--accent-color);
+}
+
+.address {
+  font-style: normal;
+}
+.header-mail {
+  color: #2196f3;
+}
+
+.header-tel {
+  color: #757575;
+}
+/*======END HEADER======*/
+
+/*======HERO======*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+.modal-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  /* color: #ffffff; */
+}
+/*======END HERO======*/
+
+/*======FEATURES======*/
+.features-definition {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.features-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*======END FEATURES======*/
+
+/*======ABOUT======*/
+/*======END ABOUT======*/
+
+/*======OUR TEAM======*/
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.842;
+  letter-spacing: 0.03em;
+  color: #212121;
+  /* text-align: center; */
+}
+
+.our-team-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.03;
+  letter-spacing: 0.03em;
+  color: #757575;
+  /* text-align: center; */
+}
+/*======END OUR TEAM======*/
+/*======FOOTER======*/
+
+.contact-info {
+  font-style: normal;
+}
+
+.contact-location,
+.contact-mail,
+.contact-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+.contact-location {
+  color: #ffffff;
+}
+
+/* .contact-mail,
+.contact-tel {
+  color: rgba(255, 255, 255, 0.6)};*/
